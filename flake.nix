@@ -19,6 +19,7 @@
           buildInputs = [
             nodejs
             nodePackages.yarn
+            nodePackages.typescript-language-server
           ];
           shellHook = ''
             echo "node `${nodejs}/bin/node --version`"

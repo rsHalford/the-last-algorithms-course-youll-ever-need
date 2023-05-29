@@ -3,7 +3,8 @@
     "moduleNameMapper": {
         "@code/(.*)": [
             "<rootDir>/src/day1/$1",
-            "<rootDir>/src/day2/$1"
+            "<rootDir>/src/day2/$1",
+            "<rootDir>/src/day3/$1"
         ]
     },
     "preset": "ts-jest"
